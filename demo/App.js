@@ -3,6 +3,11 @@ import logo from './logo.svg';
 import './App.css';
 
 class App extends Component {
+  sss(){
+    var ss=0;
+    ss++;
+    console.log(222);
+  }
   render() {
     return (
       <div className="App">
@@ -13,7 +18,7 @@ class App extends Component {
           </p>
           <a
             className="App-link"
-            href="https://reactjs.org"
+            onClick={this.sss}
             target="_blank"
             rel="noopener noreferrer"
           >
